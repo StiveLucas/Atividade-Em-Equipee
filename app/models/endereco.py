@@ -7,13 +7,11 @@ class Endereco():
         self.complemento = complemento
         self.cep = cep
         self.cidade = cidade
-        self.ufnome = ufnome
-        self.ufsigla = ufsigla
+        
 
     def __str__(self) -> str:
       return(
          
          f"\nLogradouro: {self.logradouro} \nNúmero: {self.numero}"
          f" \nComplemento: {self.complemento} \nCEP: {self.cep} \nCidade: {self.cidade}"
-         f" \nUfnome: {self.ufnome} \nUfsigla: {self.ufsigla}"
       ) 
