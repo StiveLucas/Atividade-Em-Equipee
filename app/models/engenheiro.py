@@ -13,5 +13,6 @@ class Engenheiro(Funcionario):
     def __str__(self) -> str:
       return(
 
-        f"\nNome: {self.nome}"
+        f"\nCrea: {self.crea} \nNome: {self.nome} \nTelefone: {self.telefone} \nE-mail: {self.email}"
+        f"\nSalário: {self.salario} \nEndereço: {self.endereco}"
       )
